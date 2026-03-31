@@ -20,7 +20,7 @@ In Inspector:
 Assign playerBody = Player
   3. Ground
 Create floor object
-Add Box Collider
+Add Box Collider (you're going to need to make it massive)
 Set Layer = Ground
   4. Layers
 Create Ground layer
@@ -29,7 +29,6 @@ Set groundLayer in PlayerMovement
   5. Input System
 Either:
 Set Active Input Handling = Both
-OR use new Input System (if implemented)
   6. Hierarchy (Must Match)
 Player
 ├── CameraPivot
